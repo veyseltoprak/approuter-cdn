@@ -12,9 +12,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.development.min.js'></script>
-        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.development.min.js'></script>
-        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/antd/5.16.5/antd-with-locales.min.js'></script>
+        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.min.js'></script>
+        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.min.js'></script>
+        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/antd/5.14.0/antd-with-locales.min.js'></script>
         <script defer src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/dayjs.min.js'></script>
       </head>
       <body>{children}</body>
